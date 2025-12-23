@@ -1,0 +1,62 @@
+.tabla-container {
+    padding: 24px;
+}
+
+.tabla-container h1 {
+    margin-bottom: 20px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background: #fff;
+}
+
+.tabla thead {
+    background: #f2f2f2;
+}
+
+.tabla th,
+.tabla td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.tabla th {
+    font-weight: 600;
+}
+
+.tabla td:nth-child(1) {
+    width: 20%;
+}
+
+/* Equipo */
+.tabla td:nth-child(2) {
+    width: 18%;
+}
+
+/* Estudiante */
+.tabla td:nth-child(3) {
+    width: 18%;
+}
+
+/* Docente */
+.tabla td:nth-child(4) {
+    width: 15%;
+}
+
+/* Inicio */
+.tabla td:nth-child(5) {
+    width: 15%;
+}
+
+/* Devolución */
+.tabla td:nth-child(6) {
+    width: 14%;
+}
+
+/* Estado */
